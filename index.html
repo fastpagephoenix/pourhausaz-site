@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pour Haus | Tap Trailer & Charcuterie</title>
+  <title>Pour Haus | Mobile Tap Trailer & Charcuterie</title>
 
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="styles.css" />
 </head>
@@ -15,144 +16,207 @@
 
 <header class="site-header">
   <div class="brand">
-    <span class="brand-mark">PH</span>
-    <span class="brand-text">Pour Haus</span>
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span class="brand-name">Pour Haus</span>
+      <span class="brand-tagline">Tap Trailer • Charcuterie • Events</span>
+    </div>
   </div>
+
   <nav class="main-nav">
     <a href="#about">About</a>
     <a href="#how-it-works">How It Works</a>
     <a href="#menu">Menu</a>
     <a href="#faq">FAQ</a>
-    <a href="#contact">Book</a>
+    <a href="#book" class="nav-cta">Book</a>
   </nav>
 </header>
 
 <main>
 
   <!-- HERO -->
-  <section id="hero" class="hero">
+  <section class="hero" id="top">
     <div class="hero-inner">
-      <p class="tagline">Tap Trailer · Charcuterie · Mobile Bar</p>
-      <h1>Pour Haus Comes To You.</h1>
+      <p class="hero-kicker">Scottsdale • Phoenix • Surrounding Areas</p>
+      <h1>Mobile Tap Trailer & Charcuterie For Elevated Events.</h1>
       <p class="hero-subtext">
-        A modern tap trailer and charcuterie experience for weddings, backyard gatherings,
-        brunches, and elevated events across Scottsdale & Phoenix.
+        Pour Haus brings a modern tap trailer and thoughtfully styled charcuterie experience
+        straight to your backyard, venue, or desert gathering.
       </p>
-      <a href="https://example.com/book" class="btn-primary">Book Pour Haus</a>
+      <div class="hero-actions">
+        <a href="#book" class="btn btn-primary">Book Pour Haus</a>
+        <a href="#how-it-works" class="btn btn-ghost">See How It Works</a>
+      </div>
     </div>
   </section>
 
   <!-- ABOUT -->
-  <section id="about" class="section section-alt">
+  <section class="section section-alt" id="about">
     <div class="container">
       <div class="section-header">
         <h2>About Pour Haus</h2>
-        <a href="https://example.com/book" class="btn-outline">Check Date Availability</a>
+        <a href="#book" class="btn btn-outline">Check Date Availability</a>
       </div>
 
       <p>
-        Pour Haus is a luxury mobile tap + charcuterie experience bringing warm,
-        modern rustic hospitality to your event. Whether you’re hosting a wedding,
-        backyard brunch, or evening party, we bring the aesthetic, the tap trailer,
-        and the service — you simply provide the beverages.
+        Pour Haus is a mobile tap trailer + charcuterie service with a warm, modern rustic feel.
+        We focus on natural textures, earthy tones, and clean design so your event looks as good
+        as it feels.
       </p>
-
       <p>
-        We focus on natural textures, clean design, and elevated presentation so your guests
-        feel welcomed, relaxed, and taken care of.
+        From weddings and backyard brunches to corporate mixers and milestone birthdays, we bring
+        the tap trailer, the boards, and the hospitality. You provide the beverages — we handle the rest.
       </p>
     </div>
   </section>
 
   <!-- HOW IT WORKS -->
-  <section id="how-it-works" class="section">
+  <section class="section" id="how-it-works">
     <div class="container">
       <div class="section-header">
         <h2>How It Works</h2>
-        <a href="https://example.com/book" class="btn-outline">Plan My Event</a>
+        <a href="#book" class="btn btn-outline">Plan My Event</a>
       </div>
 
-      <ol>
-        <li><strong>Share the basics.</strong> Date, time, location, guest count, and vibe.</li>
-        <li><strong>Choose your service style.</strong> Tap trailer, charcuterie, or both.</li>
-        <li><strong>We build your plan.</strong> Setup, timeline, staffing — all handled.</li>
-        <li><strong>Event day.</strong> We arrive early, style the space, serve, and clean up.</li>
-      </ol>
+      <div class="steps-grid">
+        <div class="step-card">
+          <span class="step-number">01</span>
+          <h3>Share The Basics</h3>
+          <p>Tell us your date, location, guest count, and what you’re celebrating.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">02</span>
+          <h3>Choose Your Setup</h3>
+          <p>Tap trailer only, charcuterie only, or the full Pour Haus experience.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">03</span>
+          <h3>We Build The Plan</h3>
+          <p>Timeline, menu snapshot, layout, and staffing — handled for you.</p>
+        </div>
+        <div class="step-card">
+          <span class="step-number">04</span>
+          <h3>Event Day</h3>
+          <p>We arrive early, style the space, pour, replenish, and break down.</p>
+        </div>
+      </div>
 
       <p class="note">
-        You provide the beverages. We provide the trailer, styling, and service.
+        You provide the beverages. We provide the trailer, styling, and service — always within
+        your venue’s rules and local requirements.
       </p>
     </div>
   </section>
 
   <!-- MENU -->
-  <section id="menu" class="section section-alt">
+  <section class="section section-alt" id="menu">
     <div class="container">
       <div class="section-header">
         <h2>Menu Snapshot</h2>
-        <a href="https://example.com/book" class="btn-outline">Request Full Menu</a>
+        <a href="#book" class="btn btn-outline">Request Full Menu</a>
       </div>
 
       <div class="menu-grid">
-        <div class="menu-card">
+        <article class="menu-card">
           <h3>Tap Trailer Service</h3>
-          <p>Our modern tap trailer brings clean lines, warm lighting, and up to 4 taps ready for your beverages.</p>
-          <a href="https://example.com/book" class="btn-link">Book Tap Trailer →</a>
-        </div>
+          <p class="menu-tagline">The centerpiece of the Pour Haus experience.</p>
+          <ul>
+            <li>Modern white + wood tap trailer with warm lighting</li>
+            <li>Up to 4 taps for beer, cider, wine, or batched cocktails</li>
+            <li>Styled bar frontage with glassware / cups & garnish station</li>
+          </ul>
+          <a href="#book" class="btn btn-secondary">Book Tap Trailer</a>
+        </article>
 
-        <div class="menu-card">
+        <article class="menu-card">
           <h3>Charcuterie & Boards</h3>
-          <p>Boards and grazing options built around your guest count, style, and dietary needs.</p>
-          <a href="https://example.com/book" class="btn-link">Build My Board →</a>
-        </div>
+          <p class="menu-tagline">Built around your guest count and vibe.</p>
+          <ul>
+            <li>Boards, grazing-style spreads, or passed bites</li>
+            <li>Seasonal meats, cheeses, fruit, and accompaniments</li>
+            <li>Options for vegetarian & kid-friendly boards</li>
+          </ul>
+          <a href="#book" class="btn btn-secondary">Build My Board</a>
+        </article>
 
-        <div class="menu-card">
-          <h3>Morning & Evening</h3>
-          <p>One setup, two moods — from brunch spreads to evening bar service.</p>
-          <a href="https://example.com/book" class="btn-link">View Packages →</a>
-        </div>
+        <article class="menu-card">
+          <h3>Morning & Evening Packages</h3>
+          <p class="menu-tagline">One setup, two moods.</p>
+          <ul>
+            <li>Morning: cold brew, juices, brunch boards</li>
+            <li>Evening: beer, wine, cocktails & late-night bites</li>
+            <li>Perfect for weddings and multi-part events</li>
+          </ul>
+          <a href="#book" class="btn btn-secondary">View Packages</a>
+        </article>
       </div>
     </div>
   </section>
 
   <!-- FAQ -->
-  <section id="faq" class="section">
+  <section class="section" id="faq">
     <div class="container">
       <div class="section-header">
         <h2>FAQ</h2>
-        <a href="https://example.com/book" class="btn-outline">Ask A Question</a>
+        <a href="#book" class="btn btn-outline">Ask A Question</a>
       </div>
 
-      <div class="faq-item">
-        <h3>Do you provide the alcohol?</h3>
-        <p>No — you supply the alcohol. We supply the trailer, decor, setup, and service.</p>
-      </div>
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>Do you provide the alcohol?</h3>
+          <p>
+            No. Right now, you provide all alcoholic beverages. We provide the tap trailer,
+            setup, styling, service, and break down.
+          </p>
+        </div>
 
-      <div class="faq-item">
-        <h3>Where do you serve?</h3>
-        <p>Based in Scottsdale, serving the Phoenix metro area with travel options available.</p>
-      </div>
+        <div class="faq-item">
+          <h3>Where do you operate?</h3>
+          <p>
+            We’re based in Scottsdale and serve the greater Phoenix area. Have a location
+            further out? Reach out — travel may be available.
+          </p>
+        </div>
 
-      <div class="faq-item">
-        <h3>What events do you work?</h3>
-        <p>Weddings, backyard parties, showers, corporate events, and more.</p>
+        <div class="faq-item">
+          <h3>What types of events do you do?</h3>
+          <p>
+            Weddings, birthdays, showers, corporate events, backyard parties, styled shoots,
+            and more. If people are gathering, we can likely pour for it.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>How far in advance should we book?</h3>
+          <p>
+            Popular dates fill quickly. We recommend reaching out 3–6 months in advance, but
+            don’t hesitate to ask about last-minute openings.
+          </p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section section-alt">
+  <!-- BOOKING -->
+  <section class="section section-book" id="book">
     <div class="container">
-      <div class="section-header">
-        <h2>Book Pour Haus</h2>
+      <div class="section-header section-header-center">
+        <h2>Ready To Book Pour Haus?</h2>
       </div>
 
-      <p>Ready to check availability? Click below to send your event details.</p>
+      <p class="book-intro">
+        Send us your event details and we’ll follow up with availability, pricing,
+        and a simple plan that fits your vibe.
+      </p>
 
-      <a href="https://example.com/book" class="btn-primary">Book Now</a>
+      <div class="book-actions">
+        <!-- Placeholder URL – replace with your actual form later -->
+        <a href="https://example.com/book" class="btn btn-primary btn-lg">Start Booking</a>
+        <a href="https://example.com/book" class="btn btn-ghost btn-lg">Hold My Date</a>
+      </div>
 
-      <p class="booking-alt">
-        Prefer email? Reach us: <strong>bookings@pourhausaz.com</strong>
+      <p class="book-alt">
+        Prefer email? Reach us at <strong>bookings@pourhausaz.com</strong>.
       </p>
     </div>
   </section>
@@ -161,13 +225,13 @@
 
 <footer class="site-footer">
   <div class="container footer-inner">
-    <p>© <span id="year"></span> Pour Haus. All rights reserved.</p>
-    <p>Scottsdale, Arizona</p>
+    <span>© <span id="year"></span> Pour Haus. All rights reserved.</span>
+    <span>Scottsdale, Arizona</span>
   </div>
 </footer>
 
 <script>
-  document.getElementById("year").textContent = new Date().getFullYear();
+  document.getElementById('year').textContent = new Date().getFullYear();
 </script>
 
 </body>
