@@ -1,123 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pour Haus</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Haus | Tap Trailer & Charcuterie</title>
+
+  <!-- Rustic-ish fonts to mimic a Grain & Stone vibe -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
-<!-- HEADER NAV -->
-<header>
-    <div class="logo">POUR HAUS</div>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#how">How It Works</a>
-        <a href="#menu">Menu</a>
-        <a href="#faq">FAQ</a>
-        <a href="#book" class="book-btn">Book</a>
+  <!-- STICKY HEADER / TABS -->
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">PH</span>
+      <span class="brand-text">Pour Haus</span>
+    </div>
+    <nav class="main-nav">
+      <a href="#about">About</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#menu">Menu</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Book</a>
     </nav>
-</header>
+  </header>
 
-<!-- HERO SECTION -->
-<section id="hero">
-    <div class="hero-overlay">
-        <h1>Pour Haus</h1>
-        <p>Mobile Tap Trailer • Charcuterie • Elevated Events</p>
-        <a href="https://example.com/book" class="primary-btn">Book Your Event</a>
-    </div>
-</section>
+  <main>
+    <!-- HERO -->
+    <section id="hero" class="hero hero-charcuterie">
+      <div class="hero-inner">
+        <p class="tagline">Tap Trailer · Charcuterie · Mobile Bar</p>
+        <h1>Pour Haus Comes To You.</h1>
+        <p class="hero-subtext">
+          A modern tap trailer and charcuterie experience built for backyard parties,
+          weddings, and everything in between.
+        </p>
+        <!-- Placeholder booking URL -->
+        <a href="https://example.com/book" class="btn-primary">Book Pour Haus</a>
+        <p class="hero-subtext small">
+          Scottsdale · Phoenix · Surrounding Areas
+        </p>
+      </div>
+    </section>
 
-<!-- ABOUT -->
-<section id="about" class="section">
-    <h2>About Pour Haus</h2>
-    <p>
-        Pour Haus is a luxury mobile tap + charcuterie experience bringing modern rustic hospitality to your event. 
-        Whether you’re hosting a wedding, backyard brunch, or evening party, we deliver the aesthetic, the tap trailer, 
-        and service — you simply supply the beverages.
-    </p>
-    <img src="board-pour-haus.png.png" class="feature-image">
-</section>
+    <!-- 1. ABOUT -->
+    <section id="about" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Pour Haus</h2>
+          <a href="https://example.com/book" class="btn-outline">Check Date Availability</a>
+        </div>
 
-<!-- HOW IT WORKS -->
-<section id="how" class="section alt">
-    <h2>How It Works</h2>
+        <div class="about-layout">
+          <div class="about-text">
+            <p>
+              Pour Haus is a family-run tap trailer and charcuterie bar based in Scottsdale, Arizona.
+              We blend clean, modern design with warm, organic details – think wood, linen, and candlelight –
+              to create a laid-back, elevated bar experience at your home, venue, or office.
+            </p>
+            <p>
+              Our trailer can pour your favorite beers, ciders, or batched cocktails while our boards
+              bring together cured meats, cheeses, fresh fruit, and small bites that look as good as they taste.
+            </p>
+          </div>
 
-    <ol>
-        <li><strong>Share the basics.</strong> Tell us the date, location, guest count, and vibe.</li>
-        <li><strong>Choose your service style.</strong> Tap trailer, charcuterie, or both.</li>
-        <li><strong>We build your plan.</strong> Setup, menu, timeline, staffing — all handled.</li>
-        <li><strong>Event day.</strong> We arrive early, style the space, serve, and tear down.</li>
-    </ol>
+          <div class="about-images">
+            <figure class="about-image-card">
+              <img
+                src="board-pour-haus.png"
+                alt="Empty wooden charcuterie board engraved with the words Pour Haus"
+                loading="lazy"
+              />
+            </figure>
 
-    <p class="note">You provide the beverages. We provide the trailer, styling, and service.</p>
+            <figure class="about-image-card">
+              <img
+                src="tap-trailer-pour-haus.png"
+                alt="Modern tap trailer with the Pour Haus logo on the side"
+                loading="lazy"
+              />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <a href="https://example.com/book" class="primary-btn">Plan My Event</a>
-</section>
+    <!-- 2. HOW IT WORKS -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>How It Works</h2>
+          <a href="https://example.com/book" class="btn-outline">Plan My Event</a>
+        </div>
+        <p>
+          Pour Haus is a mobile setup – we bring the tap trailer, bars, decor, and service to your location.
+          You choose the vibe, we handle the flow.
+        </p>
+        <ol>
+          <li><strong>Share the basics.</strong> Date, time, location, guest count, and what you’re celebrating.</li>
+          <li><strong>Choose your service style.</strong> Tap trailer only, charcuterie only, or the full Pour Haus experience.</li>
+          <li><strong>We build a simple plan.</strong> We’ll outline set up, menu, timeline, and staffing so you know exactly what to expect.</li>
+          <li><strong>Event day.</strong> We arrive early, style the space, serve your guests, and break everything down when the party’s over.</li>
+        </ol>
+        <p class="note">
+          You provide the beverages. We provide the trailer, styling, and service.
+        </p>
+      </div>
+    </section>
 
-<!-- MENU -->
-<section id="menu" class="section">
-    <h2>Menu Snapshot</h2>
+    <!-- 3. MENU -->
+    <section id="menu" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Menu Snapshot</h2>
+          <a href="https://example.com/book" class="btn-outline">Request Full Menu</a>
+        </div>
+        <p>
+          Every event is a little different, but here’s a snapshot of what Pour Haus can bring to the table.
+        </p>
 
-    <div class="cards">
-
-        <div class="card">
+        <div class="menu-grid">
+          <div class="menu-card">
             <h3>Tap Trailer Service</h3>
-            <img src="tap-trailer-pour-haus.png.png" class="card-image">
+            <p>
+              Our trailer is the centerpiece – clean lines, warm lighting, and taps ready for your favorite
+              kegs or batched cocktails.
+            </p>
             <ul>
-                <li>4-tap system for beer, wine, cider, or cocktails</li>
-                <li>Warm lighting + clean modern styling</li>
-                <li>Keg-ready lines</li>
+              <li>Up to 4 taps for beer, cider, or batched drinks</li>
+              <li>Styled trailer facade with seasonal greenery</li>
+              <li>Eco-friendly cups &amp; napkins available</li>
             </ul>
+            <a href="https://example.com/book" class="btn-link">Book the Tap Trailer →</a>
+          </div>
+
+          <div class="menu-card">
+            <h3>Charcuterie &amp; Boards</h3>
+            <p>
+              Boards and grazing options built around your guest count, style, and dietary needs.
+            </p>
+            <ul>
+              <li>Classic charcuterie with cured meats &amp; cheeses</li>
+              <li>Brunch boards with mini pancakes, fruit &amp; pastries</li>
+              <li>Vegetarian-forward or kid-friendly options</li>
+            </ul>
+            <a href="https://example.com/book" class="btn-link">Build My Board →</a>
+          </div>
+
+          <div class="menu-card">
+            <h3>Morning &amp; Evening Service</h3>
+            <p>
+              One setup, two moods – start the day soft and end it strong.
+            </p>
+            <ul>
+              <li>Morning: coffee, cold brew, juices, and brunch boards</li>
+              <li>Evening: beer, wine, and cocktail service (provided by host)</li>
+              <li>Optional non-alcoholic pairings</li>
+            </ul>
+            <a href="https://example.com/book" class="btn-link">Check Packages →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. FAQ -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>FAQ</h2>
+          <a href="https://example.com/book" class="btn-outline">Ask A Question</a>
         </div>
 
-        <div class="card">
-            <h3>Charcuterie & Boards</h3>
-            <img src="board-pour-haus.png.png" class="card-image">
-            <ul>
-                <li>Classic boards</li>
-                <li>Brunch spreads</li>
-                <li>Dietary options available</li>
-            </ul>
+        <div class="faq-item">
+          <h3>What is a tap trailer?</h3>
+          <p>
+            A tap trailer is a mobile bar on wheels with built-in taps. We bring the trailer, hook up your
+            kegs or batched cocktails, and serve directly from the taps at your event.
+          </p>
         </div>
 
-        <div class="card">
-            <h3>Morning & Evening Service</h3>
-            <ul>
-                <li>Morning coffee + brunch boards</li>
-                <li>Evening beer, wine, & cocktails</li>
-                <li>One setup, two moods</li>
-            </ul>
+        <div class="faq-item">
+          <h3>Do you provide the alcohol?</h3>
+          <p>
+            You supply the alcohol and we supply the trailer, decor, ice, bar tools, and service. This keeps
+            everything simple and flexible for venues and hosts.
+          </p>
         </div>
 
+        <div class="faq-item">
+          <h3>Where do you serve?</h3>
+          <p>
+            We’re based in Scottsdale and serve the greater Phoenix area. For events outside this area, send
+            us the details and we’ll see what’s possible.
+          </p>
+        </div>
+
+        <div class="faq-item">
+          <h3>What kinds of events do you do?</h3>
+          <p>
+            Backyard parties, weddings, rehearsal dinners, showers, corporate events, pop-ups, and styled
+            shoots. If people are gathering, we can likely bring the Pour Haus trailer.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. CONTACT / BOOKING -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Book Pour Haus</h2>
+        </div>
+        <p>
+          Ready to bring the tap trailer and charcuterie to your event? Click below to send us your event
+          details and we’ll follow up with availability, package ideas, and simple pricing.
+        </p>
+
+        <a href="https://example.com/book" class="btn-primary">Book Now</a>
+
+        <p class="booking-alt">
+          Prefer email? Reach us at <strong>bookings@pourhausaz.com</strong>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Pour Haus. All rights reserved.</p>
+      <p>Scottsdale, Arizona · @pourhausaz</p>
     </div>
+  </footer>
 
-    <a href="https://example.com/book" class="primary-btn">Request Full Menu</a>
-</section>
-
-<!-- FAQ -->
-<section id="faq" class="section alt">
-    <h2>FAQ</h2>
-
-    <h4>Do you provide alcohol?</h4>
-    <p>No, you supply the alcohol. We handle service, styling, mixers, setup, and clean-up.</p>
-
-    <h4>Can you do indoor or outdoor events?</h4>
-    <p>Yes — backyard, venue, warehouse, or private property.</p>
-
-    <h4>Do you travel?</h4>
-    <p>Yes — Phoenix, Scottsdale, and surrounding Arizona areas.</p>
-
-    <a href="https://example.com/book" class="primary-btn">Book Pour Haus</a>
-</section>
-
-<!-- FOOTER -->
-<footer id="book">
-    <p>Ready to elevate your event?</p>
-    <a href="https://example.com/book" class="primary-btn">Book Now</a>
-    <p class="footer-note">Pour Haus © 2025</p>
-</footer>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
