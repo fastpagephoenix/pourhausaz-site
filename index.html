@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Haus | Scottsdale Mobile Bar</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <section id="hero" class="hero hero-bar">
+    <div class="hero-inner">
+      <p class="tagline">Scottsdale’s Boujie Mobile Bar & Charcuterie Experience</p>
+      <h1>Step Into the Pour Haus.</h1>
+      <p class="hero-subtext">
+        A speakeasy-style mobile bar with mini pancakes at sunrise and cocktails at last call.
+      </p>
+      <a href="#booking" class="btn-primary">Book Pour Haus for Your Event</a>
+      <p class="hero-subtext small">
+        Weddings · Birthdays · Corporate · Private House Parties
+      </p>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Pour Haus. All rights reserved.</p>
+      <p>Scottsdale, Arizona · @pourhausaz</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
