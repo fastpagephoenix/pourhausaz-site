@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pour Haus | Food Menu</title>
+
+  <!-- Fonts (same as index.html) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Nunito:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Main site styles -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Page-specific styles -->
+  <style>
+    .menu-page-main {
+      padding: 6rem 1.5rem 4rem;
+      background: #f4ebdf;
+      min-height: 100vh;
+    }
+
+    .menu-page-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .menu-page-eyebrow {
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      margin-bottom: 0.75rem;
+      color: #b08b5b;
+    }
+
+    .menu-page-inner h1 {
+      font-family: "Cormorant Garamond", serif;
+      font-weight: 500;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      font-size: 1.6rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .menu-page-subtitle {
+      font-size: 0.95rem;
+      color: #6d5b4a;
+      margin-bottom: 2.5rem;
+    }
+
+    .menu-page-actions {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .full-menu-image {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 14px 40px rgba(0, 0, 0, 0.12);
+      display: block;
+      margin: 0 auto 2rem;
+    }
+
+    @media (max-width: 640px) {
+      .menu-page-main {
+        padding-top: 5rem;
+      }
+      .menu-page-inner h1 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="brand">
+    <div class="brand-mark">PH</div>
+    <div class="brand-text">
+      <span class="brand-name">Pour Haus</span>
+      <span class="brand-tagline">Tap Trailer • Charcuterie • Events</span>
+    </div>
+  </div>
+
+  <nav class="main-nav">
+    <a href="index.html#about">About</a>
+    <a href="index.html#how-it-works">How It Works</a>
+    <a href="index.html#menu">Menu</a>
+    <a href="index.html#faq">FAQ</a>
+    <a href="index.html#book" class="nav-cta">Book</a>
+  </nav>
+</header>
+
+<main class="menu-page-main">
+  <div class="menu-page-inner">
+    <div class="menu-page-eyebrow">Pour Haus</div>
+    <h1>Food Menu</h1>
+    <p class="menu-page-subtitle">
+      Signature brunch, graze, and bites — styled to match your event.
+    </p>
+
+    <div class="menu-page-actions">
+      <a href="index.html#menu" class="btn btn-ghost">← Back to Menu Snapshot</a>
+      <a href="drink-menu.html" class="btn btn-outline">View Drink Menu</a>
+    </div>
+
+    <!-- Full-page food menu image -->
+    <img
+      src="food-menu.png"
+      alt="Pour Haus Food Offerings Menu"
+      class="full-menu-image"
+    >
+
+    <p class="menu-page-subtitle">
+      Ready to book? Head back to the main page to lock in your date and build your package.
+    </p>
+
+    <div class="menu-page-actions">
+      <a href="index.html#book" class="btn btn-primary">Book Pour Haus</a>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span>© <span id="year"></span> Pour Haus. All rights reserved.</span>
+    <span>Scottsdale, Arizona</span>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
